@@ -7,8 +7,7 @@ export default function Home() {
         <title>PLH Media</title>
         <meta name="description" content="Coming soon" />
 
-        <script src="https://lq3-production01.s3.amazonaws.com/lead_quizzes_3.0/tracking/js/properties/lp9-azp0ack5_w.js"></script>
-      </Head>
+       </Head>
 
       <header className="header">PLH MEDIA</header>
 
