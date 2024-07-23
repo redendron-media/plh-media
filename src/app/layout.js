@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,6 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <Script src="https://lq3-production01.s3.amazonaws.com/lead_quizzes_3.0/tracking/js/properties/lp9-azp0ack5_w.js"/>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
